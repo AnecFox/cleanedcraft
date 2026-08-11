@@ -8,7 +8,7 @@ A Fabric mod that redefines vanilla survival by removing hostile elements. Perfe
 
 ## 🛠️ Technical Details
 - **Minecraft version:** `26.2` (currently latest stable release)
-- **Fabric API:** `0.155.2+26.2`
+- **Fabric API:** `0.157.0+26.2`
 - **Mod Loader:** [Fabric](https://fabricmc.net/)
 ---
 

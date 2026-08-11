@@ -25,6 +25,15 @@ public class ReplacingBannedBlocksInLevelChunkSectionsMixin {
                 return Blocks.SCULK_SENSOR.defaultBlockState();
             } else if (state.is(Blocks.BREWING_STAND) || state.is(Blocks.ENCHANTING_TABLE)) {
                 return Blocks.LECTERN.defaultBlockState();
+            } else if (state.is(Blocks.COPPER_GOLEM_STATUE.waxed().unaffected()) ||
+                    state.is(Blocks.COPPER_GOLEM_STATUE.waxed().exposed()) ||
+                    state.is(Blocks.COPPER_GOLEM_STATUE.waxed().oxidized()) ||
+                    state.is(Blocks.COPPER_GOLEM_STATUE.weathering().unaffected()) ||
+                    state.is(Blocks.COPPER_GOLEM_STATUE.weathering().exposed()) ||
+                    state.is(Blocks.COPPER_GOLEM_STATUE.weathering().oxidized())) {
+                return Blocks.AIR.defaultBlockState();
+            } else if (state.is(Blocks.CARVED_PUMPKIN)) {
+                return Blocks.PUMPKIN.defaultBlockState();
             }
         }
         return state;

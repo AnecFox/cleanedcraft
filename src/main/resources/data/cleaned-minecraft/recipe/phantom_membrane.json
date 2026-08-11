@@ -3,10 +3,9 @@
   "show_notification": true,
   "category": "misc",
   "ingredients": [
-    "minecraft:cobweb"
+    "minecraft:string",
+    "minecraft:shulker_shell",
+    "minecraft:leather"
   ],
-  "result": {
-    "id": "minecraft:string",
-    "count": 4
-  }
+  "result": "minecraft:phantom_membrane"
 }

@@ -18,15 +18,14 @@ public class MobAttackMixin {
 
     @Unique
     private static final Set<EntityType<?>> PEACEFUL_MOBS = Set.of(
-            EntityTypes.SPIDER,
             EntityTypes.CAVE_SPIDER,
-            EntityTypes.SILVERFISH,
-            EntityTypes.POLAR_BEAR,
+            EntityTypes.HOGLIN,
             EntityTypes.PIGLIN,
             EntityTypes.PIGLIN_BRUTE,
-            EntityTypes.HOGLIN,
-            EntityTypes.IRON_GOLEM,
-            EntityTypes.SNOW_GOLEM
+            EntityTypes.POLAR_BEAR,
+            EntityTypes.SHULKER,
+            EntityTypes.SILVERFISH,
+            EntityTypes.SPIDER
     );
 
     @Inject(method = "canAttack", at = @At("HEAD"), cancellable = true)
