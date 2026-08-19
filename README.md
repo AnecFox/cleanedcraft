@@ -18,7 +18,7 @@ A Fabric mod that redefines vanilla survival by removing hostile and magic eleme
 | Category           | What's Gone                                                      |
 |:-------------------|:-----------------------------------------------------------------|
 | **Hostile Mobs**   | Creepers, zombies, skeletons, and all other aggressive creatures |
-| **Weapons**        | Swords, spears, bow, crossbow, mace                              |
+| **Weapons**        | Swords, spears, arrows, crossbow, mace                              |
 | **Enchanting**     | Enchanting table, enchanted books, anvil enchanting              |
 | **Potion brewing** | Brewing stand, potions                                           |
 
@@ -47,7 +47,7 @@ The following mobs are now completely **neutral and peaceful**:
 | **Blaze rod** from two golden ingots and fireball           | ![](.github/images/features/blaze-rod-craft.png)           |
 | **Gunpowder** from sulfur, coal and bone meal               | ![](.github/images/features/gunpowder-craft.png)           |
 | **Phantom membrane** from shulker shell, leather and string | ![](.github/images/features/phantom-membrane-craft.png)    |
-| **Shulker brushing**                                        | ![](.github/images/features/shulker-brushing.png)          |
+| **Shulkers** can be brushed                                 | ![](.github/images/features/shulker-brushing.png)          |
 ---
 
 ## ⚙️ Installation
