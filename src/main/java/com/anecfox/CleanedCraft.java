@@ -18,9 +18,9 @@ import net.minecraft.world.level.biome.Biomes;
 import static com.anecfox.GenderUtilities.TAG_FEMALE;
 import static com.anecfox.GenderUtilities.TAG_MALE;
 
-public class CleanedMinecraft implements ModInitializer {
+public class CleanedCraft implements ModInitializer {
 
-    public static final String MOD_ID = "cleaned-minecraft";
+    public static final String MOD_ID = "cleanedcraft";
 
     @Override
     public void onInitialize() {
@@ -33,11 +33,11 @@ public class CleanedMinecraft implements ModInitializer {
                 Component message;
 
                 if (entity.entityTags().contains(TAG_MALE)) {
-                    message = Component.translatable("message.cleaned_minecraft.gender_male");
+                    message = Component.translatable("message.cleanedcraft.gender_male");
                 } else if (entity.entityTags().contains(TAG_FEMALE)) {
-                    message = Component.translatable("message.cleaned_minecraft.gender_female");
+                    message = Component.translatable("message.cleanedcraft.gender_female");
                 } else {
-                    message = Component.translatable("message.cleaned_minecraft.gender_tag_not_found");
+                    message = Component.translatable("message.cleanedcraft.gender_tag_not_found");
                 }
                 player.sendOverlayMessage(message);
                 return InteractionResult.SUCCESS;
@@ -56,7 +56,7 @@ public class CleanedMinecraft implements ModInitializer {
 
             if (entity.getType() == EntityTypes.COW || entity.getType() == EntityTypes.GOAT || entity.getType() == EntityTypes.MOOSHROOM) {
                 if (entity.entityTags().contains(TAG_MALE)) {
-                    var message = Component.translatable("message.cleaned_minecraft.on_trying_get_milk_from_" + (
+                    var message = Component.translatable("message.cleanedcraft.on_trying_get_milk_from_" + (
                             entity.getType() == EntityTypes.GOAT ?
                                     "male_goat" :
                                     "bull"));

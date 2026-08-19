@@ -1,8 +1,0 @@
-{
-  "message.cleaned_minecraft.it_is_banned_item": "Этот предмет заблокирован модом",
-  "message.cleaned_minecraft.gender_male": "§6Он",
-  "message.cleaned_minecraft.gender_female": "§eОна",
-  "message.cleaned_minecraft.gender_tag_not_found": "Error 404",
-  "message.cleaned_minecraft.on_trying_get_milk_from_bull": "Бык смотрит на Вас с недоумением...",
-  "message.cleaned_minecraft.on_trying_get_milk_from_male_goat": "Это козёл!"
-}

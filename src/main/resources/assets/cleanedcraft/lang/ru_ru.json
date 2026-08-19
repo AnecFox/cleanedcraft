@@ -1,0 +1,8 @@
+{
+  "message.cleanedcraft.it_is_banned_item": "Этот предмет заблокирован модом",
+  "message.cleanedcraft.gender_male": "§6Он",
+  "message.cleanedcraft.gender_female": "§eОна",
+  "message.cleanedcraft.gender_tag_not_found": "Error 404",
+  "message.cleanedcraft.on_trying_get_milk_from_bull": "Бык смотрит на Вас с недоумением...",
+  "message.cleanedcraft.on_trying_get_milk_from_male_goat": "Это козёл!"
+}

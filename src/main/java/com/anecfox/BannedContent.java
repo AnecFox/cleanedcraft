@@ -14,7 +14,6 @@ public class BannedContent {
             Items.ARROW,
             Items.BLAZE_SPAWN_EGG,
             Items.BOGGED_SPAWN_EGG,
-            Items.BOW,
             Items.BREEZE_SPAWN_EGG,
             Items.BREWING_STAND,
             Items.CAMEL_HUSK_SPAWN_EGG,

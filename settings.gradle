@@ -10,4 +10,4 @@ pluginManagement {
 }
 
 // Should match your modid
-rootProject.name = 'cleaned-minecraft'
+rootProject.name = 'cleanedcraft'

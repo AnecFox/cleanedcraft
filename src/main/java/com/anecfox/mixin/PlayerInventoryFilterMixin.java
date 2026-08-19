@@ -33,7 +33,7 @@ public class PlayerInventoryFilterMixin {
             ItemStack stack = inventory.getItem(i);
             if (!stack.isEmpty()) {
                 if (BANNED_ITEMS.contains(stack.getItem())) {
-                    player.sendOverlayMessage(Component.translatable("message.cleaned_minecraft.it_is_banned_item"));
+                    player.sendOverlayMessage(Component.translatable("message.cleanedcraft.it_is_banned_item"));
                     inventory.setItem(i, ItemStack.EMPTY);
                 } else if (stack.isEnchanted()) {
                     stack.remove(DataComponents.ENCHANTMENTS);

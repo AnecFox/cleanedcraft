@@ -1,26 +1,26 @@
 {
 	"schemaVersion": 1,
-	"id": "cleaned-minecraft",
+	"id": "cleanedcraft",
 	"version": "${version}",
-	"name": "Cleaned Minecraft",
-	"description": "Without magic, peaceful mobs, new useful crafts, male and female gender system for animals and villagers",
+	"name": "CleanedCraft",
+	"description": "Without magic and hostile elements and gender system for mobs.",
 	"authors": [
 		"AnecFox"
 	],
 	"contact": {
 		"email": "anecfox@gmail.com",
-		"sources" : "https://github.com/AnecFox/cleaned-minecraft"
+		"sources" : "https://github.com/AnecFox/cleanedcraft"
 	},
 	"license": "MIT",
-	"icon": "assets/cleaned-minecraft/icon.png",
+	"icon": "assets/cleanedcraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.anecfox.CleanedMinecraft"
+			"com.anecfox.CleanedCraft"
 		]
 	},
 	"mixins": [
-		"cleaned-minecraft.mixins.json"
+		"cleanedcraft.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
