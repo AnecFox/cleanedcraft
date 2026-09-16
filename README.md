@@ -9,7 +9,7 @@ A Fabric mod that redefines vanilla survival by removing hostile and magic eleme
 ## 🛠️ Technical Details
 - **Supported Minecraft versions:** `26.2`, `26.3`
 - **Mod Loader:** Fabric
-- **Fabric Loader:**: `0.19.5`
+- **Fabric Loader:** `0.19.5`
 - **Fabric API:** `0.160.6+26.3`(for `26.3`) or `0.160.0+26.2`(for `26.2`)
 
 ---
