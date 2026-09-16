@@ -28,7 +28,7 @@ public class GlobalSomeMobsBabiesSpawnRelocatorMixin {
 
         if (entity instanceof AgeableMob baby && baby.isBaby()) {
             if (baby instanceof Villager || baby instanceof Camel || baby instanceof Hoglin) {
-                AABB searchArea = baby.getBoundingBox().inflate(4.0d);
+                AABB searchArea = baby.getBoundingBox().inflate(4.0D);
 
                 switch (baby) {
                     case Villager villager -> {
@@ -70,7 +70,7 @@ public class GlobalSomeMobsBabiesSpawnRelocatorMixin {
             }
         } else if (entity instanceof ItemEntity itemEntity) {
             if (itemEntity.getItem().is(Items.SNIFFER_EGG)) {
-                AABB searchArea = itemEntity.getBoundingBox().inflate(4.0d);
+                AABB searchArea = itemEntity.getBoundingBox().inflate(4.0D);
                 List<Sniffer> parents = level.getEntitiesOfClass(Sniffer.class, searchArea);
 
                 for (Sniffer parent : parents) {

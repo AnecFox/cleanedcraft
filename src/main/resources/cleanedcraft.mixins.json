@@ -17,8 +17,10 @@
     "MonsterSleepFixMixin",
     "PiglinEquipmentMixin",
     "PlayerInventoryFilterMixin",
+    "PumpkinCarveBlockMixin",
     "ReplacingBannedBlocksInLevelChunkSectionsMixin",
     "ServerLevelBirthMixin",
+    "SmallerFemaleAnimals",
     "VillagerBreedMixin"
   ],
   "injectors": {

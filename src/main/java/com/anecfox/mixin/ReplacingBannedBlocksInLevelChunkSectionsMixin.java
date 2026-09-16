@@ -32,7 +32,7 @@ public class ReplacingBannedBlocksInLevelChunkSectionsMixin {
                     state.is(Blocks.COPPER_GOLEM_STATUE.weathering().exposed()) ||
                     state.is(Blocks.COPPER_GOLEM_STATUE.weathering().oxidized())) {
                 return Blocks.AIR.defaultBlockState();
-            } else if (state.is(Blocks.CARVED_PUMPKIN)) {
+            } else if (state.is(Blocks.CARVED_PUMPKIN) || state.is(Blocks.JACK_O_LANTERN)) {
                 return Blocks.PUMPKIN.defaultBlockState();
             }
         }

@@ -7,9 +7,11 @@ A Fabric mod that redefines vanilla survival by removing hostile and magic eleme
 ---
 
 ## 🛠️ Technical Details
-- **Minecraft version:** `26.2` (currently latest stable release)
-- **Fabric API:** `0.158.0+26.2`
-- **Mod Loader:** [Fabric](https://fabricmc.net/)
+- **Supported Minecraft versions:** `26.2`, `26.3`
+- **Mod Loader:** Fabric
+- **Fabric Loader:**: `0.19.5`
+- **Fabric API:** `0.160.6+26.3`(for `26.3`) or `0.160.0+26.2`(for `26.2`)
+
 ---
 
 ## ✨ What's Changed
@@ -18,16 +20,16 @@ A Fabric mod that redefines vanilla survival by removing hostile and magic eleme
 | Category           | What's Gone                                                      |
 |:-------------------|:-----------------------------------------------------------------|
 | **Hostile Mobs**   | Creepers, zombies, skeletons, and all other aggressive creatures |
-| **Weapons**        | Swords, spears, arrows, crossbow, mace                              |
+| **Weapons**        | Swords, spears, arrows, crossbow, mace                           |
 | **Enchanting**     | Enchanting table, enchanted books, anvil enchanting              |
 | **Potion brewing** | Brewing stand, potions                                           |
 
 ### ➕ New Additions
-| Feature                     | Description                                                                                                                                                                          |
-|:----------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **🐄 Gender System**        | Animals and villagers now have male and female variants (But the difference in textures has not been made yet). **Right-click** any creature with a **compass** to check its gender. |
-| **📐 New crafts**           | Added recipes for string, blaze rod, gunpowder and phantom membrane.                                                                                                                 |
-| **🧹 Brushing on shulkers** | Use brush on shulkers to get **shulker shell**.                                                                                                                                      |
+| Feature                     | Description                                                                                                                                                                    |
+|:----------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **🐄 Gender System**        | Animals and villagers now have male and female variants (the female variants little bit smaller in size). **Right-click** any creature with a **compass** to check its gender. |
+| **📐 New crafts**           | Added recipes for string, blaze rod, gunpowder and phantom membrane.                                                                                                           |
+| **🧹 Brushing on shulkers** | Use brush on shulkers to get **shulker shell**.                                                                                                                                |
 
 ### 🕊️ Peaceful Mobs
 The following mobs are now completely **neutral and peaceful**:
@@ -40,21 +42,22 @@ The following mobs are now completely **neutral and peaceful**:
 
 ## 📸 Features Preview
 
-| Feature                                                     | Screenshot                                                 |
-|:------------------------------------------------------------|:-----------------------------------------------------------|
-| **Gender Display** (right-click with compass)               | ![](.github/images/features/showing-gender-by-compass.png) |
-| **String** from cobweb                                      | ![](.github/images/features/strings-craft-from-cobweb.png) |
-| **Blaze rod** from two golden ingots and fireball           | ![](.github/images/features/blaze-rod-craft.png)           |
-| **Gunpowder** from sulfur, coal and bone meal               | ![](.github/images/features/gunpowder-craft.png)           |
-| **Phantom membrane** from shulker shell, leather and string | ![](.github/images/features/phantom-membrane-craft.png)    |
-| **Shulkers** can be brushed                                 | ![](.github/images/features/shulker-brushing.png)          |
+| Feature                                                     | Screenshot                                                                           |
+|:------------------------------------------------------------|:-------------------------------------------------------------------------------------|
+| **Gender Display** (right-click with compass)               | ![](.github/images/features/showing-gender-by-compass.png)                           |
+| **Difference in size** between male and female variants     | ![](.github/images/features/difference-in-size-between-male-and-female-variants.png) |
+| **String** from cobweb                                      | ![](.github/images/features/strings-craft-from-cobweb.png)                           |
+| **Blaze rod** from two golden ingots and fire charge        | ![](.github/images/features/blaze-rod-craft.png)                                     |
+| **Gunpowder** from sulfur, coal and bone meal               | ![](.github/images/features/gunpowder-craft.png)                                     |
+| **Phantom membrane** from shulker shell, leather and string | ![](.github/images/features/phantom-membrane-craft.png)                              |
+| **Shulkers** can be brushed                                 | ![](.github/images/features/shulker-brushing.png)                                    |
 ---
 
 ## ⚙️ Installation
 
-1. Install **Fabric Loader** for Minecraft `26.2`.
+1. Install **Fabric Loader** for Minecraft.
 2. Download **Fabric API** and place it in your `mods` folder.
-3. Place this mod's `.jar` file in the same folder.
+3. Place this mod's `.jar` file for your Minecraft version in the same folder.
 4. Launch the game and enjoy!
 
 ---
